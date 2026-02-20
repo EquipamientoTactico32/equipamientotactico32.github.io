@@ -29,11 +29,11 @@ nav a {
 
 nav a:hover { color: #3fd16f; }
 
-.hero {
-    text-align: center;
-    padding: 100px 20px;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&q=80') center/cover;
-}
+.hero-logo {
+    max-width: 280px;
+    height: auto;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 10px rgba(255,255,255,0.1));
 
 .productos {
     display: grid;
