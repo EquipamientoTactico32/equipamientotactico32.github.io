@@ -20,7 +20,7 @@ const productos = [
         nombre: "Mochila Molle 28Lts",
         precio: "ARS $45.000",
         imagenesPorColor: {
-            "Verde": "./images/mochila28_verde.jpg",
+            "Verde": "./images/mochila28_verde.jpg.jpeg",
             "Negro": "./images/mochila28_negro.jpg",
             "Amarillo": "./images/mochila28_amarillo.jpg"
         },
