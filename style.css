@@ -29,12 +29,19 @@ nav a {
 
 nav a:hover { color: #3fd16f; }
 
-.hero-logo {
-    max-width: 280px;
-    height: auto;
-    margin-bottom: 20px;
-    filter: drop-shadow(0 0 10px rgba(255,255,255,0.1));
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #0f0f0f; /* Fondo negro liso */
+    background-image: none !important; /* ELIMINA LAS NUBES */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #333; /* Una línea sutil para separar */
+}
 
+/* Si tenías la regla .hero-logo, podés borrarla porque ya no la usamos */
 .productos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
