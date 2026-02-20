@@ -10,7 +10,7 @@ const categorias = [
 const productos = [
 {
 categoria: "Cuchillos",
-nombre: "Cuchillo Yarará C.M.N",
+nombre: "Cuchillo Yarara CMN",
 precio: "ARS$111.200",
 imagen: "images/yarara.jpg",
 colores: ["Verde"],
